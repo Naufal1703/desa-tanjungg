@@ -1,0 +1,307 @@
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Desa Tanjung</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <header class="bg-blue-900 text-white shadow-lg">
+      <div
+        class="container mx-auto flex justify-between items-center py-4 px-6"
+      >
+        <h1 class="text-3xl font-bold">Desa Tanjung</h1>
+        <nav>
+          <ul class="hidden md:flex space-x-6">
+            <li>
+              <a
+                class="hover:text-gray-300 transition duration-300"
+                href="#beranda"
+              >
+                Beranda
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-300 transition duration-300"
+                href="#visi-misi"
+              >
+                Visi &amp; Misi
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-300 transition duration-300"
+                href="#geografis"
+              >
+                Geografis
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-300 transition duration-300"
+                href="#galeri"
+              >
+                Galeri
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-300 transition duration-300"
+                href="#kontak"
+              >
+                Kontak
+              </a>
+            </li>
+          </ul>
+          <div class="md:hidden">
+            <button id="menu-button" class="focus:outline-none">
+              <i class="fas fa-bars text-2xl"> </i>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="hidden md:hidden bg-blue-900 text-white" id="mobile-menu">
+        <ul class="flex flex-col space-y-4 py-4 px-6">
+          <li>
+            <a
+              class="hover:text-gray-300 transition duration-300"
+              href="#beranda"
+            >
+              Beranda
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-gray-300 transition duration-300"
+              href="#visi-misi"
+            >
+              Visi &amp; Misi
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-gray-300 transition duration-300"
+              href="#geografis"
+            >
+              Geografis
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-gray-300 transition duration-300"
+              href="#galeri"
+            >
+              Galeri
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-gray-300 transition duration-300"
+              href="#kontak"
+            >
+              Kontak
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section
+      class="bg-cover bg-center py-16"
+      id="beranda"
+      style="
+        background-image: url('https://pict.sindonews.net/webp/940/salsabila/photo/2022/07/07/5/31261/G-menara-pandang-teratai-ikonik-baru-pariwisata-kota-purwokerto-ysx.webp');
+      "
+    >
+      <div
+        class="container mx-auto text-center px-4 bg-white bg-opacity-75 py-12 rounded-lg shadow-lg"
+      >
+        <h2 class="text-4xl font-bold mb-4 text-blue-900">
+          Selamat Datang di Desa Tanjung
+        </h2>
+        <p class="text-lg mb-8 text-gray-700">
+          Desa Tanjung adalah desa yang Memiliki Ikonik Purwokerto yaitu Menara Teratai.
+        </p>
+        <a
+          class="bg-blue-900 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
+          href="#geografis"
+        >
+          Lihat Peta Desa
+        </a>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-16" id="visi-misi">
+      <div class="container mx-auto text-center px-4">
+        <h2 class="text-4xl font-bold mb-4 text-blue-900">Visi &amp; Misi</h2>
+        <div
+          class="flex flex-col md:flex-row justify-center items-start md:space-x-8"
+        >
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <h3 class="text-2xl font-semibold mb-2 text-blue-700">Visi</h3>
+            <p class="text-lg text-gray-700">
+              Menjadikan Desa Tanjung sebagai desa yang maju, mandiri, dan
+              sejahtera dengan mengedepankan nilai-nilai kebersamaan dan gotong
+              royong.
+            </p>
+          </div>
+          <div class="md:w-1/2">
+            <h3 class="text-2xl font-semibold mb-2 text-blue-700">Misi</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700">
+              <li>
+                Meningkatkan kualitas pendidikan dan kesehatan masyarakat.
+              </li>
+              <li>
+                Mengembangkan potensi ekonomi lokal melalui pariwisata.
+              </li>
+              <li>
+                Memperkuat infrastruktur desa untuk mendukung kegiatan ekonomi
+                dan sosial.
+              </li>
+              <li>Melestarikan budaya dan tradisi lokal.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white py-16" id="geografis">
+      <div class="container mx-auto text-center px-4">
+        <h2 class="text-4xl font-bold mb-4 text-blue-900">Geografis</h2>
+        <p class="text-lg mb-8 text-gray-700">
+          desa Tanjung Purwokerto Selatan adalah salah satu kecamatan yang terletak di wilayah Kabupaten Banyumas, Provinsi Jawa Tengah, Indonesia. Kecamatan ini merupakan bagian dari kota Purwokerto yang sering dianggap sebagai pusat administratif dan ekonomi di Banyumas..
+        </p>
+        <iframe
+          title="Peta geografis Desa Karangtengah"
+          class="mx-auto rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+          width="800"
+          height="400"
+          src="https://desa-tanjung.vercel.app/#15/-7.4271/109.2236"
+          frameborder="0"
+          allowfullscreen
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-16" id="galeri">
+      <div class="container mx-auto text-center px-4">
+        <h2 class="text-4xl font-bold mb-4 text-blue-900">Galeri</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <img
+              alt="Foto pemandangan alun alun purwokerto"
+              class="rounded-lg shadow-lg transition duration- 300 transform hover:scale-105"
+              height="300"
+              src="https://awsimages.detik.net.id/community/media/visual/2024/10/15/kompleks-videotron-alun-alun-purwokerto-banyumas-yang-akan-digunakan-untuk-kegiatan-nobar-cina-vs-indonesia-selasa-151022024-m_169.jpeg?w=1200"
+              width="400"
+            />
+          </div>
+          <div>
+            <img
+              alt="Foto ikonik madang maning park"
+              class="rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+              height="300"
+              src="https://assets.promediateknologi.id/crop/46x952:964x1605/750x500/webp/photo/2022/10/06/3607184625.jpg"
+              width="400"
+            />
+          </div>
+          <div>
+            <img
+              alt="Foto pemandangan menara Teratai"
+              class="rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+              height="300"
+              src="https://cdn.idntimes.com/content-images/community/2022/08/fromandroid-17c72ff5f7b049d9866a84f1f3990e4c.jpg"
+              width="400"
+            />
+          </div>
+          <div>
+            <img
+              alt="Foto acara gebyar bagi takjil desa Tanjung"
+              class="rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+              height="300"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvSfmNdefs-PcSXSX1zYKLjXqKkkd6URn2ob8uN3nkxwAkLWJneEzfjKBlt5yqbxc-SFpuxV7XvgCYSzyyCIlTkTIC4gj1Bbps6_zv8scMKV6xG0EOUQlZD4LacILhppB1XyKSy6Z_8azy7SrGhOYvuAEOb9jxfCdjSepWcXvNOinLAgHHIhmxYwVrbOo/s800/irel.jpg"
+              width="400"
+            />
+          </div>
+          <div>
+            <img
+              alt="Foto Puskesmas desa Tanjung"
+              class="rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+              height="300"
+              src="https://static.banyumaskab.go.id/website/images/website_21032407592965fc2f3107726.jpg"
+              width="400"
+            />
+          </div>
+          <div>
+            <img
+              alt="Foto gelar pasar tani"
+              class="rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+              height="300"
+              src="https://cdn.rri.co.id/berita/Purwokerto/o/1729727855306-IMG20241023104406/2oafomkjufvh1qb.jpeg"
+              width="400"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-16" id="kontak">
+      <div class="container mx-auto text-center px-4">
+        <h2 class="text-4xl font-bold mb-4 text-blue-900">Kontak</h2>
+        <p class="text-lg mb-8 text-gray-700">
+          Untuk informasi lebih lanjut, silakan hubungi kami melalui kontak di
+          bawah ini:
+        </p>
+        <div
+          class="flex flex-col md:flex-row justify-center items-start md:space-x-8"
+        >
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <h3 class="text-2xl font-semibold mb-2 text-blue-700">Alamat</h3>
+            <p class="text-lg text-gray-700">
+              Jl. IR.Soekarno No. 123, Tanjung, Indonesia
+            </p>
+          </div>
+          <div class="md:w-1/2">
+            <h3 class="text-2xl font-semibold mb-2 text-blue-700">Kontak</h3>
+            <p class="text-lg text-gray-700">
+              <i class="fas fa-phone-alt"> </i>
+              +62 123 456 789
+            </p>
+            <p class="text-lg text-gray-700">
+              <i class="fas fa-envelope"> </i>
+              info@desa-tanjung.id
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-blue-900 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>© 2023 Desa Tanjung. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document
+        .getElementById("menu-button")
+        .addEventListener("click", function () {
+          var menu = document.getElementById("mobile-menu");
+          if (menu.classList.contains("hidden")) {
+            menu.classList.remove("hidden");
+          } else {
+            menu.classList.add("hidden");
+          }
+        });
+    </script>
+  </body>
+</html>
